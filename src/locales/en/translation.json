@@ -1,0 +1,219 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "about": "Discover",
+      "pricing": "Pricing",
+      "contacts": "Contacts"
+    }
+  },
+  "hero": {
+    "title": "The world watches those who appear. UPLY rewards those who achieve.",
+    "subtitle": "Join the first meritocratic platform that turns real results into opportunities."
+  },
+  "about": {
+    "title": "Beyond visibility. Your value, finally measurable.",
+    "subtitle": "Stop chasing algorithms. Start building real impact in an ecosystem designed for those who truly achieve.",
+    "cta": "Discover",
+    "explore": "Explore details",
+    "popup": {
+      "key_points": "Pillars of Merit"
+    },
+    "discover": {
+      "title": "Discovery",
+      "subtitle": "The heart of meritocratic exploration.",
+      "items": {
+        "per_te": {
+          "badge": "AI Insight",
+          "title": "For You",
+          "desc": "Your cognitive mirror. Receive opportunities and people that expand your boundaries, not just your likes.",
+          "extended": {
+            "overview": "Forget tamed feeds. Our algorithm seeks your next intellectual challenge based on your real potential.",
+            "points": [
+              "No Filter Bubble",
+              "Total algorithmic transparency",
+              "Connections based on real value"
+            ]
+          }
+        },
+        "media": {
+          "badge": "Knowledge",
+          "title": "Media",
+          "desc": "The archive of excellence. High-cognitive value content, from posts to documents, verified by Guardian AI.",
+          "extended": {
+            "overview": "Every resource is analyzed to ensure its integrity and usefulness in your continuous growth journey.",
+            "points": [
+              "Zero Noise",
+              "Verified sources",
+              "Integrated Learning Paths"
+            ]
+          }
+        },
+        "eventi": {
+          "badge": "Live Action",
+          "title": "Events & Live",
+          "desc": "High-frequency connections. Join live experiences where theory becomes practice and meet the mentors.",
+          "extended": {
+            "overview": "Attend talks, challenges, and mini-forums. Every event is a networking opportunity verified by AI.",
+            "points": [
+              "Targeted networking",
+              "Priority access",
+              "Participation validation"
+            ]
+          }
+        },
+        "progetti": {
+          "badge": "Match AI",
+          "title": "Projects & Collaborations",
+          "desc": "Factory of the Future. Find the ideal partner to scale projects that leave a mark.",
+          "extended": {
+            "overview": "Match AI analyzes your skills and connects you with ideal partners to build high-impact teams.",
+            "points": [
+              "Compatibility suggestions",
+              "Seamless team management",
+              "Contribution certification"
+            ]
+          }
+        },
+        "marketplace": {
+          "badge": "Economy",
+          "title": "Marketplace",
+          "desc": "The economy of merit. Exchange skills and resources in the first market regulated by real value.",
+          "extended": {
+            "overview": "Turn your talent into Seeds. An ethical market where quality and impact beat price.",
+            "points": [
+              "Instant payouts in Seeds",
+              "Certified ethical partners",
+              "High-impact services"
+            ]
+          }
+        }
+      }
+    },
+    "desk": {
+      "title": "Desk",
+      "subtitle": "Your meritocratic command center.",
+      "items": {
+        "impact": {
+          "badge": "Live Metrics",
+          "title": "Impact Index",
+          "desc": "You are not a follower count. You are the tangible result of the impact you generate every day.",
+          "extended": {
+            "overview": "The Impact Index measures the quality and consistency of your real contribution to the ecosystem.",
+            "points": [
+              "Real-time updates",
+              "AI ethical validation",
+              "Premium visibility"
+            ]
+          }
+        },
+        "wallet": {
+          "badge": "Verified",
+          "title": "Seeds Wallet",
+          "desc": "The currency that rewards creators. Manage the earnings derived from your real contribution.",
+          "extended": {
+            "overview": "Seeds are the unit of value of UPLY, rewarding action and produced knowledge.",
+            "points": [
+              "Secure 2FA management",
+              "Transparent conversion",
+              "Immutable history"
+            ]
+          }
+        }
+      }
+    },
+    "eco": {
+      "title": "Ecosystem",
+      "subtitle": "Invisible trust, total security.",
+      "items": {
+        "guardian": {
+          "badge": "Guardian AI",
+          "title": "Ethics & Security",
+          "desc": "The invisible layer that protects your identity and guarantees the meritocracy of the system.",
+          "extended": {
+            "overview": "Guardian AI monitors every interaction to prevent manipulation and guarantee absolute fairness.",
+            "points": [
+              "Military-grade data protection",
+              "Anti-bias continuous audit",
+              "Privacy by design"
+            ]
+          }
+        },
+        "mentor": {
+          "badge": "Co-Pilot",
+          "title": "Mentor AI",
+          "desc": "Your guide towards cognitive evolution. Targeted suggestions to accelerate your growth.",
+          "extended": {
+            "overview": "Mentor AI analyzes your potential and proposes the perfect resource at the exact moment of need.",
+            "points": [
+              "Adaptive learning paths",
+              "Post-project feedback",
+              "Growth analysis"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "beta": {
+    "title": "The UPLY Beta is coming",
+    "subtitle": "Leave your email to join the waitlist and get exclusive early access as soon as the platform is ready.",
+    "email_placeholder": "Enter your best email",
+    "loading": "Registering...",
+    "submit": "Notify me at launch",
+    "success": "Thank you! We've added you to the waitlist."
+  },
+  "pricing": {
+    "title": "UPLY Plans",
+    "subtitle": "Choose the plan that best suits your journey and access the tools to grow in the meritocratic network.",
+    "plans": {
+      "1": {
+        "name": "Free — To get started",
+        "price": "Free",
+        "features": {
+          "1": "Free personal and company profile",
+          "2": "Full access to Discover and Marketplace",
+          "3": "Chat, collaborations, and base Seeds (up to 50/month)",
+          "4": "Limited AI analytics",
+          "5": "Community events and challenges"
+        }
+      },
+      "2": {
+        "name": "Business — To grow and monetize",
+        "price": "€19.90/month",
+        "features": {
+          "1": "Everything in the Free plan",
+          "2": "+20 free monthly Seeds",
+          "3": "Reduced commissions to 5%",
+          "4": "Unlimited AI credits",
+          "5": "Advanced impact and reputation reports",
+          "6": "Zero fees on paid events",
+          "7": "Priority support and Business Verified badge"
+        }
+      }
+    }
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "subtitle": "Have questions, ideas, or want to collaborate with UPLY? Our team always replies.",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Write your message here..."
+      }
+    },
+    "send": "Send Message"
+  },
+  "cookies": {
+    "message": "We use technical and functional cookies to offer you a better experience. Accept them to continue.",
+    "accept": "Accept"
+  }
+}

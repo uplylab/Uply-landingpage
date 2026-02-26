@@ -1,0 +1,219 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "about": "Entdecken",
+      "pricing": "Abonnements",
+      "contacts": "Kontakt"
+    }
+  },
+  "hero": {
+    "title": "Die Welt beachtet, wer auffällt. UPLY belohnt, wer erschafft.",
+    "subtitle": "Schließe dich der ersten meritokratischen Plattform an, die echte Ergebnisse in Chancen verwandelt."
+  },
+  "about": {
+    "title": "Jenseits der Sichtbarkeit. Dein Wert, endlich messbar.",
+    "subtitle": "Hör auf, Algorithmen hinterherzujagen. Beginne, echten Impact in einem Ökosystem aufzubauen, das für echte Macher entwickelt wurde.",
+    "cta": "Entdecken",
+    "explore": "Details erkunden",
+    "popup": {
+      "key_points": "Die Säulen der Meritokratie"
+    },
+    "discover": {
+      "title": "Discovery",
+      "subtitle": "Das Herzstück der meritokratischen Entdeckung.",
+      "items": {
+        "per_te": {
+          "badge": "AI Insight",
+          "title": "Für Dich",
+          "desc": "Dein kognitiver Spiegel. Erhalte Chancen und Kontakte, die deine Grenzen erweitern, nicht nur deine Likes.",
+          "extended": {
+            "overview": "Vergiss gezähmte Feeds. Unser Algorithmus sucht deine nächste intellektuelle Herausforderung basierend auf deinem wahren Potenzial.",
+            "points": [
+              "Keine Filterblase",
+              "Totale algorithmische Transparenz",
+              "Verbindungen basierend auf echtem Wert"
+            ]
+          }
+        },
+        "media": {
+          "badge": "Knowledge",
+          "title": "Medien",
+          "desc": "Das Archiv der Exzellenz. Inhalte mit hohem kognitivem Wert, von Beiträgen bis zu Dokumenten, verifiziert durch Guardian AI.",
+          "extended": {
+            "overview": "Jede Ressource wird analysiert, um ihre Integrität und Nützlichkeit auf deinem Weg des kontinuierlichen Wachstums zu gewährleisten.",
+            "points": [
+              "Null Rauschen",
+              "Verifizierte Quellen",
+              "Integrierte Lernpfade"
+            ]
+          }
+        },
+        "eventi": {
+          "badge": "Live Action",
+          "title": "Events & Live",
+          "desc": "Hochfrequente Verbindungen. Nimm an Live-Erlebnissen teil, bei denen Theorie zur Praxis wird, und triff die Mentoren.",
+          "extended": {
+            "overview": "Nimm an Talks, Challenges und Mini-Foren teil. Jedes Event ist eine durch KI verifizierte Networking-Gelegenheit.",
+            "points": [
+              "Gezieltes Networking",
+              "Bevorzugter Zugang",
+              "Validierung der Teilnahme"
+            ]
+          }
+        },
+        "progetti": {
+          "badge": "Match AI",
+          "title": "Projekte & Kollaborationen",
+          "desc": "Fabrik der Zukunft. Finde den idealen Partner, um Projekte zu skalieren, die Spuren hinterlassen.",
+          "extended": {
+            "overview": "Match AI analysiert deine Fähigkeiten und verbindet dich mit den idealen Partnern, um High-Impact-Teams aufzubauen.",
+            "points": [
+              "Kompatibilitätsvorschläge",
+              "Reibungsloses Team-Management",
+              "Zertifizierung von Beiträgen"
+            ]
+          }
+        },
+        "marketplace": {
+          "badge": "Economy",
+          "title": "Marktplatz",
+          "desc": "Die Wirtschaft des Verdienstes. Tausche Fähigkeiten und Ressourcen im ersten Markt aus, der durch echten Wert reguliert wird.",
+          "extended": {
+            "overview": "Verwandle dein Talent in Seeds. Ein ethischer Markt, in dem Qualität und Impact den Preis schlagen.",
+            "points": [
+              "Sofortige Auszahlungen in Seeds",
+              "Zertifizierte ethische Partner",
+              "High-Impact-Dienstleistungen"
+            ]
+          }
+        }
+      }
+    },
+    "desk": {
+      "title": "Desk",
+      "subtitle": "Dein meritokratisches Kommandozentrum.",
+      "items": {
+        "impact": {
+          "badge": "Live Metrics",
+          "title": "Impact Index",
+          "desc": "Du bist keine Follower-Zahl. Du bist das greifbare Ergebnis des Impacts, den du jeden Tag generierst.",
+          "extended": {
+            "overview": "Der Impact Index misst die Qualität und Beständigkeit deines echten Beitrags zum Ökosystem.",
+            "points": [
+              "Echtzeit-Aktualisierung",
+              "Ethische KI-Validierung",
+              "Premium-Sichtbarkeit"
+            ]
+          }
+        },
+        "wallet": {
+          "badge": "Verified",
+          "title": "Seeds Wallet",
+          "desc": "Die Währung, die Schöpfer belohnt. Verwalte deine Einnahmen aus deinem tatsächlichen Beitrag.",
+          "extended": {
+            "overview": "Seeds sind die Werteinheit von UPLY und belohnen Handeln und generiertes Wissen.",
+            "points": [
+              "Sicheres 2FA-Management",
+              "Transparente Konvertierung",
+              "Unveränderliche Historie"
+            ]
+          }
+        }
+      }
+    },
+    "eco": {
+      "title": "Ökosystem",
+      "subtitle": "Unsichtbares Vertrauen, absolute Sicherheit.",
+      "items": {
+        "guardian": {
+          "badge": "Guardian AI",
+          "title": "Ethik & Sicherheit",
+          "desc": "Die unsichtbare Schicht, die deine Identität schützt und die Meritokratie des Systems garantiert.",
+          "extended": {
+            "overview": "Guardian AI überwacht jede Interaktion, um Manipulationen vorzubeugen und absolute Fairness zu gewährleisten.",
+            "points": [
+              "Militärischer Datenschutz",
+              "Kontinuierliches Anti-Bias-Audit",
+              "Privacy by Design"
+            ]
+          }
+        },
+        "mentor": {
+          "badge": "Co-Pilot",
+          "title": "Mentor AI",
+          "desc": "Dein Leitfaden zur kognitiven Evolution. Gezielte Vorschläge, um dein Wachstum zu beschleunigen.",
+          "extended": {
+            "overview": "Die Mentor AI analysiert dein Potenzial und schlägt dir genau im richtigen Moment die perfekte Ressource vor.",
+            "points": [
+              "Adaptive Lernpfade",
+              "Post-Projekt-Feedback",
+              "Wachstumsanalyse"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "beta": {
+    "title": "Die UPLY Beta kommt",
+    "subtitle": "Hinterlasse deine E-Mail, um der Warteliste beizutreten und exklusiven Vorabzugang zu erhalten, sobald die Plattform bereit ist.",
+    "email_placeholder": "Gib deine beste E-Mail-Adresse ein",
+    "loading": "Registrierung...",
+    "submit": "Benachrichtige mich beim Start",
+    "success": "Danke! Wir haben dich zur Warteliste hinzugefügt."
+  },
+  "pricing": {
+    "title": "UPLY Abonnements",
+    "subtitle": "Wähle den Plan, der am besten zu deinem Weg passt, und erhalte Zugang zu den Werkzeugen, um im meritokratischen Netzwerk zu wachsen.",
+    "plans": {
+      "1": {
+        "name": "Free — Für den Einstieg",
+        "price": "Kostenlos",
+        "features": {
+          "1": "Kostenloses persönliches und Unternehmensprofil",
+          "2": "Voller Zugriff auf Discover und den Marktplatz",
+          "3": "Chat, Kollaborationen und Basis-Seeds (bis zu 50/Monat)",
+          "4": "Eingeschränkte KI-Analysen",
+          "5": "Community-Events und Challenges"
+        }
+      },
+      "2": {
+        "name": "Business — Zum Wachsen und Monetarisieren",
+        "price": "19,90 €/Monat",
+        "features": {
+          "1": "Alles aus dem Free-Plan",
+          "2": "+20 kostenlose Seeds monatlich",
+          "3": "Reduzierte Provisionen auf 5%",
+          "4": "Unbegrenzte KI-Credits",
+          "5": "Erweiterte Berichte über Impact und Reputation",
+          "6": "Keine Gebühren für kostenpflichtige Events",
+          "7": "Bevorzugter Support und Business Verified-Abzeichen"
+        }
+      }
+    }
+  },
+  "contacts": {
+    "title": "Kontaktiere uns",
+    "subtitle": "Hast du Fragen, Ideen oder möchtest du mit UPLY zusammenarbeiten? Unser Team antwortet immer.",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Dein Name"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "Deine E-Mail"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Schreibe deine Nachricht hier..."
+      }
+    },
+    "send": "Nachricht senden"
+  },
+  "cookies": {
+    "message": "Wir verwenden technische und funktionale Cookies, um dir ein besseres Erlebnis zu bieten. Akzeptiere sie, um fortzufahren.",
+    "accept": "Akzeptieren"
+  }
+}

@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   RTL SUPPORT
+============================================================ */
+html[dir="rtl"] {
+  direction: rtl;
+}
+html[dir="rtl"] * {
+  text-align: right !important;
+}
+html[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* ============================================================
+   GLOBAL SMOOTH SCROLL
+============================================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================================
+   GLOBAL BACKGROUND
+============================================================ */
+html, body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(0,184,201,.18) 0%, rgba(0,143,164,.08) 25%, transparent 55%),
+    linear-gradient(120deg, #0E1A22 0%, #061018 100%);
+  background-attachment: fixed;
+  color: #EAF2F5;
+  font-family: 'Manrope', system-ui, sans-serif;
+  transition: background 1s ease, color .6s ease;
+}
+
+/* LIGHT MODE BACKGROUND */
+:root:not(.dark) html,
+:root:not(.dark) body {
+  background:
+    radial-gradient(circle at 25% 35%, rgba(0,184,201,.12) 0%, rgba(0,143,164,.05) 25%, transparent 55%),
+    linear-gradient(120deg, #f6fbfc 0%, #eaf2f5 40%, #deeef3 100%);
+  color: #001F3C;
+}
+
+/* ============================================================
+   GLASS EFFECTS
+============================================================ */
+
+/* GLASS CARD (piccole, popup) — USARE QUESTO */
+.glass-card {
+  background: rgba(240,244,248,0.55);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.22);
+  transition: all .4s ease;
+}
+
+/* DARK MODE CARD */
+.dark .glass-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ============================================================
+   NAVBAR GLASS (dedicato)
+============================================================ */
+.navbar-uply {
+  backdrop-filter: blur(18px);
+  transition: all .4s ease;
+  border: none;
+}
+
+/* Navbar LIGHT mode */
+:root:not(.dark) .navbar-uply {
+  background: rgba(255,255,255,0.58);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Navbar LIGHT mode — scrollata */
+:root:not(.dark) .navbar-uply.scrolled {
+  background: rgba(255,255,255,0.82);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+/* Navbar DARK mode */
+.dark .navbar-uply {
+  background: rgba(20,24,35,0.45);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+}
+
+/* Navbar DARK mode — scrollata */
+.dark .navbar-uply.scrolled {
+  background: rgba(20,24,35,0.68);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.45);
+}
+
+/* ============================================================
+   TYPOGRAPHY
+============================================================ */
+h1,h2,h3,h4 {
+  color: #F2F7FA;
+  font-weight: 700;
+}
+:root:not(.dark) h1,
+:root:not(.dark) h2,
+:root:not(.dark) h3,
+:root:not(.dark) h4 {
+  color: #001F3C;
+}
+
+p {
+  color: #A3B3C0;
+  line-height: 1.6;
+}
+:root:not(.dark) p {
+  color: #4F5B68;
+}
+
+/* ============================================================
+   BUTTON STYLE
+============================================================ */
+.btn-uply {
+  background-color: #00B8C9;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  padding: .75rem 1.75rem;
+  transition: all .3s ease;
+}
+.btn-uply:hover {
+  background-color: #00D5E9;
+  box-shadow: 0 0 22px rgba(0,184,201,.28);
+  transform: translateY(-2px);
+}
+
+/* ============================================================
+   TOGGLE TEMA
+============================================================ */
+.toggle-uply {
+  width: 36px;
+  height: 20px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,.12);
+  position: relative;
+  transition: background .3s;
+}
+.toggle-uply::after {
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:16px;
+  height:16px;
+  background:#00B8C9;
+  border-radius:50%;
+  transition: transform .3s;
+}
+.toggle-uply.active {
+  background: rgba(0,184,201,.28);
+}
+.toggle-uply.active::after {
+  transform: translateX(16px);
+}
+
+/* ============================================================
+   LANG BUTTON
+============================================================ */
+.lang-btn {
+  color:#EAF2F5;
+  font-weight:600;
+  border-bottom:2px solid transparent;
+  transition:all .3s;
+}
+.lang-btn:hover {
+  color:#00B8C9;
+  border-bottom-color:#00B8C9;
+}
+:root:not(.dark) .lang-btn {
+  color:#001F3C;
+}
