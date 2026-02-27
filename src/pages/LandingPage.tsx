@@ -6,9 +6,9 @@ import PricingSection from "@components/PricingSection";
 import ContactsSection from "@components/ContactsSection";
 import CookieBanner from "@components/CookieBanner";
 import Footer from "@components/Footer";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { motion } from "framer-motion";
-import miaImmagine from '@assets/dashboard-mockup.jpg';
+import miaImmagine from "@assets/dashboard-mockup.jpg";
 
 export default function LandingPage() {
   const { t } = useTranslation();
@@ -55,7 +55,7 @@ export default function LandingPage() {
           className="mb-8 px-5 py-1.5 rounded-full border border-[#00B8C9]/20 dark:border-[#00B8C9]/30 bg-[#00B8C9]/5 dark:bg-[#00B8C9]/10 backdrop-blur-md shadow-[0_0_15px_rgba(0,184,201,0.1)] dark:shadow-[0_0_15px_rgba(0,184,201,0.2)]"
         >
           <span className="text-xs md:text-sm font-bold text-[#0092A0] dark:text-[#00D5E9] tracking-wider uppercase">
-            🚀 Accesso Beta in arrivo
+            {t("ecosystem.badge")}
           </span>
         </motion.div>
 
@@ -67,9 +67,7 @@ export default function LandingPage() {
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-[1.05] tracking-tight 
           bg-gradient-to-br from-gray-900 via-gray-700 to-[#0092A0] dark:from-white dark:via-[#E2F8FF] dark:to-[#00B8C9] text-transparent bg-clip-text mb-6 max-w-4xl"
         >
-          {t("hero.title", {
-            defaultValue: "Il mondo guarda chi appare. UPLY premia chi realizza."
-          })}
+          {t("hero.title")}
         </motion.h1>
 
         {/* Sottotitolo */}
@@ -79,9 +77,7 @@ export default function LandingPage() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-600 dark:text-[#A0B3C6] max-w-2xl mb-16 font-medium"
         >
-          {t("hero.subtitle", {
-            defaultValue: "Unisciti alla prima piattaforma meritocratica che trasforma risultati reali in opportunità."
-          })}
+          {t("hero.subtitle")}
         </motion.p>
 
         {/* ===================== NUOVA SEZIONE: ECOSISTEMA UPLY (CARDS) ===================== */}
@@ -97,28 +93,31 @@ export default function LandingPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
               </svg>
             </div>
-            <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Meritocrazia Reale</h4>
+            <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">{t("ecosystem.card1_title")}</h4>
             <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-              Basta contenuti vuoti. Su Uply la <strong>competenza è l’unica valuta</strong>. Un ecosistema dove ogni interazione premia il valore reale che porti nella community.
+              <Trans i18nKey="ecosystem.card1_desc">
+                Basta contenuti vuoti. Su Uply la <strong>competenza è l’unica valuta</strong>. Un ecosistema dove ogni interazione premia il valore reale che porti nella community.
+              </Trans>
             </p>
           </motion.div>
 
           {/* Card 2: Knowledge */}
-          {/* Card 2: Knowledge (TESTO AGGIORNATO) */}
-  <motion.div
-    whileHover={{ y: -5 }}
-    className="p-8 rounded-3xl bg-white/40 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-lg transition-all shadow-sm hover:shadow-xl hover:border-[#00B8C9]/30"
-  >
-    <div className="w-12 h-12 rounded-2xl bg-[#00B8C9]/10 flex items-center justify-center mb-6">
-      <svg className="w-6 h-6 text-[#00B8C9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-      </svg>
-    </div>
-    <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Hub della Conoscenza</h4>
-    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-      Dalle dispense universitarie alle videolezioni e podcast di alta qualità. Uno spazio dove l'informazione <strong>non è intrattenimento passeggero</strong>, ma un pilastro fondamentale per la tua crescita professionale.
-    </p>
-  </motion.div>
+          <motion.div
+            whileHover={{ y: -5 }}
+            className="p-8 rounded-3xl bg-white/40 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-lg text-left transition-all shadow-sm hover:shadow-xl hover:border-[#00B8C9]/30"
+          >
+            <div className="w-12 h-12 rounded-2xl bg-[#00B8C9]/10 flex items-center justify-center mb-6">
+              <svg className="w-6 h-6 text-[#00B8C9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">{t("ecosystem.card2_title")}</h4>
+            <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              <Trans i18nKey="ecosystem.card2_desc">
+                Dalle dispense universitarie alle videolezioni e podcast di alta qualità. Uno spazio dove l'informazione <strong>non è intrattenimento passeggero</strong>, ma un pilastro fondamentale per la tua crescita professionale.
+              </Trans>
+            </p>
+          </motion.div>
 
           {/* Card 3: Business */}
           <motion.div
@@ -130,9 +129,11 @@ export default function LandingPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
-            <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Startup & Career</h4>
+            <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">{t("ecosystem.card3_title")}</h4>
             <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-              Connettiti con <strong>investitori e aziende</strong>. Su Uply non mostri come passi il tempo: mostri quanto vali per sbloccare la tua prossima opportunità.
+              <Trans i18nKey="ecosystem.card3_desc">
+                Connettiti con <strong>investitori e aziende</strong>. Su Uply non mostri come passi il tempo: mostri quanto vali per sbloccare la tua prossima opportunità.
+              </Trans>
             </p>
           </motion.div>
 
@@ -148,10 +149,10 @@ export default function LandingPage() {
         >
           <div className="mb-6 bg-white/50 dark:bg-[#121A2F]/50 p-6 md:p-10 rounded-3xl border border-gray-200 dark:border-white/10 backdrop-blur-md shadow-sm">
             <h3 className="text-xl md:text-3xl font-bold text-gray-900 dark:text-white mb-3">
-              Pronto a mostrare il tuo valore?
+              {t("ecosystem.waitlist_title")}
             </h3>
             <p className="text-sm md:text-base text-gray-600 dark:text-[#A0B3C6] mb-8">
-              Unisciti alla lista d'attesa per ricevere l'accesso esclusivo alla Beta appena sarà pronta.
+              {t("ecosystem.waitlist_subtitle")}
             </p>
             <RegistrationForm />
           </div>
