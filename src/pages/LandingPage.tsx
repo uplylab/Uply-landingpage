@@ -8,7 +8,7 @@ import CookieBanner from "@components/CookieBanner";
 import Footer from "@components/Footer";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import miaImmagine from '../dashboard-mockup.jpg';
+import miaImmagine from '@assets/dashboard-mockup.jpg';
 
 export default function LandingPage() {
   const { t } = useTranslation();
