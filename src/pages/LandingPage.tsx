@@ -8,6 +8,7 @@ import CookieBanner from "@components/CookieBanner";
 import Footer from "@components/Footer";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import miaImmagine from './nome-della-tua-foto.jpg';
 
 export default function LandingPage() {
   const { t } = useTranslation();
@@ -179,7 +180,7 @@ export default function LandingPage() {
 
             <div className="flex-1 relative overflow-hidden bg-[#F8FAFC] dark:bg-[#0B0F19]">
               <img 
-                src="/dashboard-mockup.png" 
+                src={miaImmagine}
                 alt="UPLY Discover Dashboard UI" 
                 className="w-full h-full object-cover object-top"
                 loading="lazy"
