@@ -144,7 +144,7 @@ export default function Footer() {
                     
                     <p className="text-sm leading-relaxed">
                       <Trans i18nKey="footer.cookie.p1">
-                        Questo sito utilizza <1>solo cookie tecnici strettamente necessari</1> al suo funzionamento.
+                        Questo sito utilizza solo cookie tecnici strettamente necessari  al suo funzionamento.
                       </Trans>
                     </p>
                     <p className="text-sm leading-relaxed">
