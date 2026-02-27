@@ -14,10 +14,8 @@ export default function RegistrationForm() {
     setStatus("loading");
 
     try {
-      // Il tuo URL ufficiale di Google Apps Script
       const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmVYH92Dvsz1DBRA9QC2d5i2LUireNQzzH5WldGjJw6lp-3rkZzteCkqlPo5WCAyMA_w/exec";
 
-      // Usiamo mode: 'no-cors' per evitare che il browser blocchi la chiamata verso Google
       await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
         mode: "no-cors",
@@ -27,11 +25,9 @@ export default function RegistrationForm() {
         body: JSON.stringify({ email: email }),
       });
 
-      // Dato che usiamo 'no-cors', assumiamo il successo se non ci sono errori di rete
       setStatus("success");
       setEmail("");
       
-      // Torna allo stato normale dopo 5 secondi
       setTimeout(() => setStatus("idle"), 5000);
       
     } catch (error) {
@@ -48,7 +44,7 @@ export default function RegistrationForm() {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder={t("beta.email_placeholder", { defaultValue: "Inserisci la tua migliore email" })}
+          placeholder={t("beta.email_placeholder")}
           disabled={status === "loading" || status === "success"}
           required
           className="w-full px-6 py-4 rounded-full border border-gray-200 dark:border-white/10 bg-white/80 dark:bg-[#121A2F]/80 backdrop-blur-md text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#00B8C9] shadow-lg disabled:opacity-60 transition-all"
@@ -67,10 +63,10 @@ export default function RegistrationForm() {
           }
         `}
       >
-        {status === "idle" && <>{t("beta.submit", { defaultValue: "Avvisami al lancio" })} <ArrowRight className="w-5 h-5" /></>}
-        {status === "loading" && <><Loader2 className="w-5 h-5 animate-spin" /> Registrazione...</>}
-        {status === "success" && <><CheckCircle className="w-5 h-5" /> Aggiunto!</>}
-        {status === "error" && <><AlertCircle className="w-5 h-5" /> Errore</>}
+        {status === "idle" && <>{t("beta.submit")} <ArrowRight className="w-5 h-5" /></>}
+        {status === "loading" && <><Loader2 className="w-5 h-5 animate-spin" /> {t("beta.loading")}</>}
+        {status === "success" && <><CheckCircle className="w-5 h-5" /> {t("beta.btn_success")}</>}
+        {status === "error" && <><AlertCircle className="w-5 h-5" /> {t("beta.btn_error")}</>}
       </button>
     </form>
   );

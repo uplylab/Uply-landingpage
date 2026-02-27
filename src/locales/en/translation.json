@@ -167,12 +167,13 @@
     }
   },
   "beta": {
-    "title": "The UPLY Beta is coming",
+    "title": "UPLY Beta is coming",
     "subtitle": "Leave your email to join the waitlist and get exclusive early access as soon as the platform is ready.",
     "email_placeholder": "Enter your best email",
-    "loading": "Registering...",
     "submit": "Notify me at launch",
-    "success": "Thank you! We've added you to the waitlist."
+    "loading": "Registering...",
+    "btn_success": "Added!",
+    "btn_error": "Error"
   },
   "pricing": {
     "title": "UPLY Plans",
@@ -226,5 +227,36 @@
   "cookies": {
     "message": "We use technical and functional cookies to offer you a better experience. Accept them to continue.",
     "accept": "Accept"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "terms": "Terms and Conditions"
+    },
+    "copyright": "© {{year}} Uply. All rights reserved.",
+    "last_updated": "Last updated: February 2026",
+    "privacy": {
+      "title": "Privacy Policy",
+      "sec1_title": "1. Data Controller",
+      "sec1_desc": "The Data Controller is Uply. You can contact us at any time for privacy-related questions.",
+      "sec2_title": "2. Data Collected",
+      "sec2_desc": "During the Beta Waitlist phase, we exclusively collect your email address. We do not collect sensitive data or phone numbers.",
+      "sec3_title": "3. Purpose",
+      "sec3_desc": "Your email address is used solely to add you to the waitlist and notify you of the platform's official launch. Your data will not be sold to third parties, and you will not receive unsolicited spam.",
+      "sec4_title": "4. Storage and Rights",
+      "sec4_desc": "Under the GDPR, you have the right to request access, modification, or deletion of your data (Right to be forgotten) at any time by contacting us directly."
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "p1": "This Cookie Policy explains how Uply uses cookies on its website. Currently, our landing page uses <1>exclusively technical and strictly necessary cookies</1> to ensure the proper functioning of the site and its animations.",
+      "p2": "We do not use profiling cookies to track your behavior for advertising purposes, and we do not sell browsing data to third parties."
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "p1": "By joining the Uply Waitlist, you agree to receive email communications regarding the development, launch, and news of the platform.",
+      "p2": "Joining the waitlist does not guarantee immediate access to the platform. Beta access will be granted in batches at the sole discretion of the Uply team to ensure server stability and an optimal experience.",
+      "p3": "Uply reserves the right to remove invalid, temporary, or suspected bot email addresses from the Waitlist."
+    }
   }
 }

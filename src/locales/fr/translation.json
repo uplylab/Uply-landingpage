@@ -168,11 +168,12 @@
   },
   "beta": {
     "title": "La Bêta d'UPLY arrive",
-    "subtitle": "Laissez votre e-mail pour rejoindre la liste d'attente et obtenir un accès anticipé exclusif dès que la plateforme sera prête.",
-    "email_placeholder": "Entrez votre meilleure adresse e-mail",
-    "loading": "Inscription en cours...",
-    "submit": "Tenez-moi au courant au lancement",
-    "success": "Merci ! Nous vous avons ajouté à la liste d'attente."
+    "subtitle": "Laissez votre e-mail pour rejoindre la liste d'attente et obtenir un accès exclusif.",
+    "email_placeholder": "Entrez votre meilleur e-mail",
+    "submit": "Prévenez-moi",
+    "loading": "Inscription...",
+    "btn_success": "Ajouté !",
+    "btn_error": "Erreur"
   },
   "pricing": {
     "title": "Abonnements UPLY",
@@ -226,5 +227,36 @@
   "cookies": {
     "message": "Nous utilisons des cookies techniques et fonctionnels pour vous offrir une meilleure expérience. Acceptez-les pour continuer.",
     "accept": "Accepter"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Politique de Confidentialité",
+      "cookie": "Politique relative aux Cookies",
+      "terms": "Conditions Générales"
+    },
+    "copyright": "© {{year}} Uply. Tous droits réservés.",
+    "last_updated": "Dernière mise à jour : Février 2026",
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "sec1_title": "1. Responsable du Traitement",
+      "sec1_desc": "Le Responsable du traitement est Uply. Vous pouvez nous contacter pour toute question.",
+      "sec2_title": "2. Données Collectées",
+      "sec2_desc": "En phase de liste d'attente (Beta), nous collectons uniquement votre e-mail. Aucune donnée sensible n'est collectée.",
+      "sec3_title": "3. Objectif",
+      "sec3_desc": "Votre e-mail sert uniquement à vous inscrire sur la liste d'attente et à vous notifier du lancement. Vos données ne seront pas vendues.",
+      "sec4_title": "4. Conservation et Droits",
+      "sec4_desc": "Conformément au RGPD, vous avez le droit de demander l'accès, la modification ou la suppression de vos données."
+    },
+    "cookie": {
+      "title": "Politique relative aux Cookies",
+      "p1": "Cette politique explique l'utilisation des cookies par Uply. Notre site utilise <1>exclusivement des cookies techniques et strictement nécessaires</1> pour assurer le bon fonctionnement du site.",
+      "p2": "Nous n'utilisons pas de cookies de profilage à des fins publicitaires."
+    },
+    "terms": {
+      "title": "Conditions Générales",
+      "p1": "En rejoignant la liste d'attente Uply, vous acceptez de recevoir des communications sur le développement de la plateforme.",
+      "p2": "L'inscription ne garantit pas un accès immédiat. L'accès à la Bêta sera accordé par vagues.",
+      "p3": "Uply se réserve le droit de supprimer les adresses e-mail invalides, temporaires ou suspectes (bots)."
+    }
   }
 }

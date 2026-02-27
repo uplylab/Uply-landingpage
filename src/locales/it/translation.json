@@ -134,9 +134,10 @@
     "title": "La Beta di UPLY sta arrivando",
     "subtitle": "Lascia la tua email per unirti alla lista d'attesa e ricevere l'accesso esclusivo in anteprima appena la piattaforma sarà pronta.",
     "email_placeholder": "Inserisci la tua migliore email",
-    "loading": "Registrazione...",
     "submit": "Avvisami al lancio",
-    "success": "Grazie! Ti abbiamo aggiunto alla lista d'attesa."
+    "loading": "Registrazione...",
+    "btn_success": "Aggiunto!",
+    "btn_error": "Errore"
   },
   "pricing": {
     "title": "Abbonamenti UPLY",
@@ -190,5 +191,36 @@
   "cookies": {
     "message": "Utilizziamo cookie tecnici e funzionali per offrirti un’esperienza migliore. Accettali per continuare.",
     "accept": "Accetta"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "terms": "Termini e Condizioni"
+    },
+    "copyright": "© {{year}} Uply. Tutti i diritti riservati.",
+    "last_updated": "Ultimo aggiornamento: Febbraio 2026",
+    "privacy": {
+      "title": "Privacy Policy",
+      "sec1_title": "1. Titolare del Trattamento",
+      "sec1_desc": "Il Titolare del trattamento è Uply. Puoi contattarci in qualsiasi momento per domande sulla privacy.",
+      "sec2_title": "2. Dati Raccolti",
+      "sec2_desc": "Essendo in fase di Beta Waitlist, raccogliamo esclusivamente il tuo indirizzo email. Non raccogliamo dati sensibili o numeri di telefono.",
+      "sec3_title": "3. Finalità",
+      "sec3_desc": "L'indirizzo email viene utilizzato al solo scopo di inserirti nella lista d'attesa e notificarti l'apertura ufficiale della piattaforma. I tuoi dati non saranno venduti a terzi e non riceverai spam non richiesto.",
+      "sec4_title": "4. Conservazione e Diritti",
+      "sec4_desc": "In base al GDPR, hai il diritto di richiedere l'accesso, la modifica o la cancellazione dei tuoi dati (Diritto all'oblio) in qualsiasi momento, contattandoci direttamente."
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "p1": "La presente Cookie Policy spiega come Uply utilizza i cookie sul proprio sito web. Attualmente, la nostra landing page utilizza <1>esclusivamente cookie tecnici e strettamente necessari</1> al fine di garantire il corretto funzionamento del sito e delle animazioni.",
+      "p2": "Non utilizziamo cookie di profilazione per tracciare il tuo comportamento a scopo pubblicitario e non vendiamo dati di navigazione a terze parti."
+    },
+    "terms": {
+      "title": "Termini e Condizioni",
+      "p1": "Iscrivendoti alla lista d'attesa (Waitlist) di Uply, accetti di ricevere comunicazioni via email relative allo sviluppo, al lancio e alle novità della piattaforma.",
+      "p2": "L'iscrizione alla lista d'attesa non garantisce l'accesso immediato alla piattaforma. L'accesso alla fase Beta verrà erogato a scaglioni a esclusiva discrezione del team di Uply per garantire la stabilità dei server e un'esperienza ottimale.",
+      "p3": "Uply si riserva il diritto di rimuovere dalla Waitlist gli indirizzi email invalidi, temporanei o sospettati di attività bot."
+    }
   }
 }

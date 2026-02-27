@@ -101,7 +101,7 @@ export default function Footer() {
                     
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 dark:text-white">1. Titolare del Trattamento</h3>
-                      <p className="text-sm mt-1">Il Titolare del trattamento è [Il tuo Nome/Azienda]. Puoi contattarci a hello@uply.com.</p>
+                      <p className="text-sm mt-1">Il Titolare del trattamento è Uply. Puoi contattarci a uply.lab@gmail.com</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 dark:text-white">2. Dati Raccolti</h3>

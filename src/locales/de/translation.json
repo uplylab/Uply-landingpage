@@ -167,12 +167,13 @@
     }
   },
   "beta": {
-    "title": "Die UPLY Beta kommt",
-    "subtitle": "Hinterlasse deine E-Mail, um der Warteliste beizutreten und exklusiven Vorabzugang zu erhalten, sobald die Plattform bereit ist.",
-    "email_placeholder": "Gib deine beste E-Mail-Adresse ein",
+    "title": "Die UPLY-Beta kommt",
+    "subtitle": "Hinterlassen Sie Ihre E-Mail, um sich in die Warteliste einzutragen und exklusiven Zugang zu erhalten.",
+    "email_placeholder": "Geben Sie Ihre beste E-Mail ein",
+    "submit": "Beim Start benachrichtigen",
     "loading": "Registrierung...",
-    "submit": "Benachrichtige mich beim Start",
-    "success": "Danke! Wir haben dich zur Warteliste hinzugefügt."
+    "btn_success": "Hinzugefügt!",
+    "btn_error": "Fehler"
   },
   "pricing": {
     "title": "UPLY Abonnements",
@@ -226,5 +227,36 @@
   "cookies": {
     "message": "Wir verwenden technische und funktionale Cookies, um dir ein besseres Erlebnis zu bieten. Akzeptiere sie, um fortzufahren.",
     "accept": "Akzeptieren"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Datenschutzrichtlinie",
+      "cookie": "Cookie-Richtlinie",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    },
+    "copyright": "© {{year}} Uply. Alle Rechte vorbehalten.",
+    "last_updated": "Letzte Aktualisierung: Februar 2026",
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "sec1_title": "1. Verantwortlicher",
+      "sec1_desc": "Der Verantwortliche ist Uply. Sie können uns bei Fragen jederzeit kontaktieren.",
+      "sec2_title": "2. Gesammelte Daten",
+      "sec2_desc": "In der Beta-Phase sammeln wir ausschließlich Ihre E-Mail-Adresse. Wir sammeln keine sensiblen Daten.",
+      "sec3_title": "3. Zweck",
+      "sec3_desc": "Ihre E-Mail wird nur verwendet, um Sie auf die Warteliste zu setzen und Sie über den Start zu informieren.",
+      "sec4_title": "4. Rechte",
+      "sec4_desc": "Gemäß der DSGVO haben Sie jederzeit das Recht auf Auskunft, Berichtigung oder Löschung Ihrer Daten."
+    },
+    "cookie": {
+      "title": "Cookie-Richtlinie",
+      "p1": "Uply verwendet <1>ausschließlich technische und unbedingt erforderliche Cookies</1>, um die einwandfreie Funktion der Website zu gewährleisten.",
+      "p2": "Wir verwenden keine Profiling-Cookies für Werbezwecke."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "p1": "Durch den Beitritt zur Uply-Warteliste erklären Sie sich bereit, E-Mails über die Entwicklung der Plattform zu erhalten.",
+      "p2": "Der Beitritt garantiert keinen sofortigen Zugang. Der Beta-Zugang wird schrittweise gewährt.",
+      "p3": "Uply behält sich das Recht vor, ungültige oder verdächtige E-Mail-Adressen zu entfernen."
+    }
   }
 }

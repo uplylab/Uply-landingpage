@@ -167,12 +167,13 @@
     }
   },
   "beta": {
-    "title": "A versão Beta da UPLY está chegando",
-    "subtitle": "Deixe o seu e-mail para entrar na lista de espera e receber acesso exclusivo antecipado assim que a plataforma estiver pronta.",
-    "email_placeholder": "Insira o seu melhor e-mail",
-    "loading": "Registrando...",
+    "title": "O Beta da UPLY está chegando",
+    "subtitle": "Deixe seu e-mail para entrar na lista de espera e obter acesso exclusivo antecipado.",
+    "email_placeholder": "Insira seu melhor e-mail",
     "submit": "Avise-me no lançamento",
-    "success": "Obrigado! Adicionamos você à lista de espera."
+    "loading": "Registrando...",
+    "btn_success": "Adicionado!",
+    "btn_error": "Erro"
   },
   "pricing": {
     "title": "Assinaturas UPLY",
@@ -226,5 +227,36 @@
   "cookies": {
     "message": "Utilizamos cookies técnicos e funcionais para oferecer a você uma experiência melhor. Aceite-os para continuar.",
     "accept": "Aceitar"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Política de Privacidade",
+      "cookie": "Política de Cookies",
+      "terms": "Termos e Condições"
+    },
+    "copyright": "© {{year}} Uply. Todos os direitos reservados.",
+    "last_updated": "Última atualização: Fevereiro de 2026",
+    "privacy": {
+      "title": "Política de Privacidade",
+      "sec1_title": "1. Controlador de Dados",
+      "sec1_desc": "O controlador é a Uply. Você pode nos contatar a qualquer momento.",
+      "sec2_title": "2. Dados Coletados",
+      "sec2_desc": "Na fase de Waitlist, coletamos apenas seu e-mail. Não coletamos dados sensíveis.",
+      "sec3_title": "3. Propósito",
+      "sec3_desc": "Seu e-mail é usado apenas para notificá-lo sobre o lançamento. Não vendemos seus dados.",
+      "sec4_title": "4. Direitos",
+      "sec4_desc": "De acordo com o GDPR (ou LGPD), você tem o direito de solicitar acesso, modificação ou exclusão de seus dados."
+    },
+    "cookie": {
+      "title": "Política de Cookies",
+      "p1": "Nossa página utiliza <1>exclusivamente cookies técnicos e estritamente necessários</1> para garantir o funcionamento do site.",
+      "p2": "Não usamos cookies de perfil para rastrear seu comportamento para fins publicitários."
+    },
+    "terms": {
+      "title": "Termos e Condições",
+      "p1": "Ao ingressar na Waitlist da Uply, você concorda em receber comunicações por e-mail.",
+      "p2": "A inscrição não garante acesso imediato. O acesso Beta será concedido em lotes.",
+      "p3": "A Uply reserva-se o direito de remover e-mails inválidos ou suspeitos."
+    }
   }
 }

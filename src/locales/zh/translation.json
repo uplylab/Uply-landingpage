@@ -167,12 +167,13 @@
     }
   },
   "beta": {
-    "title": "UPLY Beta 版即将上线",
-    "subtitle": "留下你的电子邮箱加入候补名单，在平台准备就绪时获得独家抢先体验资格。",
-    "email_placeholder": "输入你的常用电子邮箱",
+    "title": "UPLY Beta 测试即将上线",
+    "subtitle": "留下您的电子邮箱加入候补名单，在平台准备就绪时获得独家抢先体验权。",
+    "email_placeholder": "输入您最常用的邮箱",
+    "submit": "发布时通知我",
     "loading": "注册中...",
-    "submit": "上线时通知我",
-    "success": "谢谢！我们已将你加入候补名单。"
+    "btn_success": "已添加！",
+    "btn_error": "错误"
   },
   "pricing": {
     "title": "UPLY 订阅方案",
@@ -226,5 +227,36 @@
   "cookies": {
     "message": "我们使用必要的功能性 Cookie 来提供更好的体验。请同意以继续访问。",
     "accept": "同意"
+  },
+  "footer": {
+    "links": {
+      "privacy": "隐私政策",
+      "cookie": "Cookie 政策",
+      "terms": "条款与条件"
+    },
+    "copyright": "© {{year}} Uply. 保留所有权利。",
+    "last_updated": "最后更新时间：2026年2月",
+    "privacy": {
+      "title": "隐私政策",
+      "sec1_title": "1. 数据控制者",
+      "sec1_desc": "数据控制者为 Uply。您可以随时与我们联系。",
+      "sec2_title": "2. 收集的数据",
+      "sec2_desc": "在候补名单阶段，我们仅收集您的电子邮箱。我们不会收集敏感数据。",
+      "sec3_title": "3. 目的",
+      "sec3_desc": "您的电子邮箱仅用于将您加入候补名单并通知您。您的数据不会被出售。",
+      "sec4_title": "4. 权利",
+      "sec4_desc": "根据GDPR，您有权随时要求访问、修改或删除您的数据。"
+    },
+    "cookie": {
+      "title": "Cookie 政策",
+      "p1": "Uply <1>仅使用技术性和绝对必要的 Cookie</1> 以确保网站正常运行。",
+      "p2": "我们不会使用分析型 Cookie 来追踪您的行为以进行广告宣传。"
+    },
+    "terms": {
+      "title": "条款与条件",
+      "p1": "加入 Uply 候补名单，即表示您同意接收有关平台开发和发布的电子邮件。",
+      "p2": "加入候补名单并不能保证立即获得访问权限。Beta 测试权限将分批发放。",
+      "p3": "Uply 保留删除无效或可疑邮箱地址的权利。"
+    }
   }
 }

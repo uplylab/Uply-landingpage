@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
@@ -33,10 +33,17 @@ export default function Footer() {
       <footer className="w-full border-t border-gray-200 dark:border-white/10 py-12 px-6 bg-[#F8FAFC] dark:bg-[#0B0F19] transition-colors duration-700 relative z-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           
-         
-         
+          {/* Logo o Nome Brand */}
+          <div className="flex flex-col items-center md:items-start">
+            <span className="text-2xl font-extrabold tracking-tighter text-gray-900 dark:text-white">
+              UPLY
+            </span>
+            <p className="text-sm text-gray-500 dark:text-[#A0B3C6] mt-2">
+              {t("footer.slogan", { defaultValue: "Il social network meritocratico." })}
+            </p>
+          </div>
 
-          {/* Bottoni Legali - Protetti dal ricaricamento della pagina */}
+          {/* Bottoni Legali */}
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <button 
               type="button"
@@ -46,7 +53,7 @@ export default function Footer() {
               }}
               className="text-gray-500 dark:text-[#A0B3C6] hover:text-[#0092A0] dark:hover:text-[#00D5E9] transition-colors cursor-pointer"
             >
-              Privacy Policy
+              {t("footer.links.privacy")}
             </button>
             <button 
               type="button"
@@ -56,7 +63,7 @@ export default function Footer() {
               }}
               className="text-gray-500 dark:text-[#A0B3C6] hover:text-[#0092A0] dark:hover:text-[#00D5E9] transition-colors cursor-pointer"
             >
-              Cookie Policy
+              {t("footer.links.cookie")}
             </button>
             <button 
               type="button"
@@ -66,18 +73,18 @@ export default function Footer() {
               }}
               className="text-gray-500 dark:text-[#A0B3C6] hover:text-[#0092A0] dark:hover:text-[#00D5E9] transition-colors cursor-pointer"
             >
-              Termini e Condizioni
+              {t("footer.links.terms")}
             </button>
           </div>
 
           {/* Copyright */}
           <div className="text-sm text-gray-500 dark:text-[#A0B3C6] text-center md:text-right">
-            © {currentYear} Uply. Tutti i diritti riservati.
+            {t("footer.copyright", { year: currentYear })}
           </div>
         </div>
       </footer>
 
-      {/* ===================== MODALE POPUP (Z-INDEX 9999) ===================== */}
+      {/* ===================== MODALE POPUP ===================== */}
       <AnimatePresence>
         {activeModal && (
           <motion.div 
@@ -85,16 +92,15 @@ export default function Footer() {
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
             exit={{ opacity: 0 }}
-            onClick={closeModal} // Chiude cliccando fuori
+            onClick={closeModal}
           >
             <motion.div 
               className="bg-white dark:bg-[#121A2F] border border-gray-200 dark:border-white/10 p-6 md:p-10 rounded-[32px] max-w-3xl w-full relative shadow-2xl flex flex-col max-h-[85vh] text-left"
               initial={{ scale: 0.95, y: 20 }} 
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.95, y: 20 }}
-              onClick={(e) => e.stopPropagation()} // Evita la chiusura cliccando dentro il modale
+              onClick={(e) => e.stopPropagation()}
             >
-              {/* Pulsante di chiusura X */}
               <button 
                 type="button"
                 onClick={closeModal} 
@@ -103,65 +109,59 @@ export default function Footer() {
                 <X className="w-5 h-5" />
               </button>
               
-              {/* Contenitore testuale scrollabile */}
               <div className="overflow-y-auto pr-4 custom-scrollbar">
                 
-                {/* --- CONTENUTO PRIVACY POLICY --- */}
+                {/* --- PRIVACY POLICY --- */}
                 {activeModal === 'privacy' && (
                   <div className="space-y-6 text-gray-700 dark:text-[#A0B3C6]">
-                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Privacy Policy</h2>
-                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">Ultimo aggiornamento: Febbraio 2026</p>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{t("footer.privacy.title")}</h2>
+                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">{t("footer.last_updated")}</p>
                     
                     <div>
-                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">1. Titolare del Trattamento</h3>
-                      <p className="text-sm mt-1">Il Titolare del trattamento è Uply. Puoi contattarci in qualsiasi momento per domande sulla privacy.</p>
+                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">{t("footer.privacy.sec1_title")}</h3>
+                      <p className="text-sm mt-1">{t("footer.privacy.sec1_desc")}</p>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">2. Dati Raccolti</h3>
-                      <p className="text-sm mt-1">Essendo in fase di Beta Waitlist, raccogliamo esclusivamente il tuo indirizzo email. Non raccogliamo dati sensibili o numeri di telefono.</p>
+                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">{t("footer.privacy.sec2_title")}</h3>
+                      <p className="text-sm mt-1">{t("footer.privacy.sec2_desc")}</p>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">3. Finalità</h3>
-                      <p className="text-sm mt-1">L'indirizzo email viene utilizzato al solo scopo di inserirti nella lista d'attesa e notificarti l'apertura ufficiale della piattaforma. I tuoi dati non saranno venduti a terzi e non riceverai spam non richiesto.</p>
+                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">{t("footer.privacy.sec3_title")}</h3>
+                      <p className="text-sm mt-1">{t("footer.privacy.sec3_desc")}</p>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">4. Conservazione e Diritti</h3>
-                      <p className="text-sm mt-1">In base al GDPR, hai il diritto di richiedere l'accesso, la modifica o la cancellazione dei tuoi dati (Diritto all'oblio) in qualsiasi momento, contattandoci direttamente.</p>
+                      <h3 className="text-lg font-bold text-gray-900 dark:text-white">{t("footer.privacy.sec4_title")}</h3>
+                      <p className="text-sm mt-1">{t("footer.privacy.sec4_desc")}</p>
                     </div>
                   </div>
                 )}
 
-                {/* --- CONTENUTO COOKIE POLICY --- */}
+                {/* --- COOKIE POLICY --- */}
                 {activeModal === 'cookie' && (
                   <div className="space-y-6 text-gray-700 dark:text-[#A0B3C6]">
-                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Cookie Policy</h2>
-                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">Ultimo aggiornamento: Febbraio 2026</p>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{t("footer.cookie.title")}</h2>
+                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">{t("footer.last_updated")}</p>
                     
                     <p className="text-sm leading-relaxed">
-                      La presente Cookie Policy spiega come Uply utilizza i cookie sul proprio sito web. 
-                      Attualmente, la nostra landing page utilizza <strong>esclusivamente cookie tecnici e strettamente necessari</strong> al fine di garantire il corretto funzionamento del sito e delle animazioni.
+                      <Trans i18nKey="footer.cookie.p1">
+                        Questo sito utilizza <1>solo cookie tecnici strettamente necessari</1> al suo funzionamento.
+                      </Trans>
                     </p>
                     <p className="text-sm leading-relaxed">
-                      Non utilizziamo cookie di profilazione per tracciare il tuo comportamento a scopo pubblicitario e non vendiamo dati di navigazione a terze parti.
+                      {t("footer.cookie.p2")}
                     </p>
                   </div>
                 )}
 
-                {/* --- CONTENUTO TERMINI E CONDIZIONI --- */}
+                {/* --- TERMINI E CONDIZIONI --- */}
                 {activeModal === 'termini' && (
                   <div className="space-y-6 text-gray-700 dark:text-[#A0B3C6]">
-                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Termini e Condizioni</h2>
-                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">Ultimo aggiornamento: Febbraio 2026</p>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{t("footer.terms.title")}</h2>
+                    <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">{t("footer.last_updated")}</p>
                     
-                    <p className="text-sm leading-relaxed">
-                      Iscrivendoti alla lista d'attesa (Waitlist) di Uply, accetti di ricevere comunicazioni via email relative allo sviluppo, al lancio e alle novità della piattaforma.
-                    </p>
-                    <p className="text-sm leading-relaxed">
-                      L'iscrizione alla lista d'attesa non garantisce l'accesso immediato alla piattaforma. L'accesso alla fase Beta verrà erogato a scaglioni a esclusiva discrezione del team di Uply per garantire la stabilità dei server e un'esperienza ottimale.
-                    </p>
-                    <p className="text-sm leading-relaxed">
-                      Uply si riserva il diritto di rimuovere dalla Waitlist gli indirizzi email invalidi, temporanei o sospettati di attività bot.
-                    </p>
+                    <p className="text-sm leading-relaxed">{t("footer.terms.p1")}</p>
+                    <p className="text-sm leading-relaxed">{t("footer.terms.p2")}</p>
+                    <p className="text-sm leading-relaxed">{t("footer.terms.p3")}</p>
                   </div>
                 )}
 
