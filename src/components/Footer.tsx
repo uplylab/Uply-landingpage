@@ -33,15 +33,7 @@ export default function Footer() {
       <footer className="w-full border-t border-gray-200 dark:border-white/10 py-12 px-6 bg-[#F8FAFC] dark:bg-[#0B0F19] transition-colors duration-700 relative z-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           
-          {/* Logo o Nome Brand */}
-          <div className="flex flex-col items-center md:items-start">
-            <span className="text-2xl font-extrabold tracking-tighter text-gray-900 dark:text-white">
-              UPLY
-            </span>
-            <p className="text-sm text-gray-500 dark:text-[#A0B3C6] mt-2">
-              {t("footer.slogan", { defaultValue: "Il social network meritocratico." })}
-            </p>
-          </div>
+          
 
           {/* Bottoni Legali */}
           <div className="flex flex-wrap justify-center gap-6 text-sm">
