@@ -11,6 +11,17 @@
     "title": "Le monde regarde ceux qui apparaissent. UPLY récompense ceux qui accomplissent.",
     "subtitle": "Rejoignez la première plateforme méritocratique qui transforme de vrais résultats en opportunités."
   },
+  "ecosystem": {
+    "badge": "🚀 Accès Bêta Bientôt Disponible",
+    "card1_title": "Méritocratie Réelle",
+    "card1_desc": "Fini le contenu vide. Sur Uply <1>l'expertise est la seule monnaie</1>. Un écosystème où chaque interaction récompense la valeur réelle que vous apportez à la communauté.",
+    "card2_title": "Pôle de Connaissances",
+    "card2_desc": "Des notes universitaires aux leçons vidéo et podcasts de haute qualité. Un espace où l'information <1>n'est pas un divertissement éphémère</1>, mais un pilier fondamental pour votre croissance professionnelle.",
+    "card3_title": "Startup & Carrière",
+    "card3_desc": "Connectez-vous avec <1>des investisseurs et des entreprises</1>. Sur Uply, vous ne montrez pas comment vous passez votre temps : vous montrez ce que vous valez pour débloquer votre prochaine opportunité.",
+    "waitlist_title": "Prêt à montrer votre valeur ?",
+    "waitlist_subtitle": "Rejoignez la liste d'attente pour recevoir un accès exclusif à la Bêta dès qu'elle sera prête."
+  },
   "about": {
     "title": "Au-delà de la visibilité. Votre valeur, enfin mesurable.",
     "subtitle": "Arrêtez de courir après les algorithmes. Commencez à construire un véritable impact dans un écosystème conçu pour ceux qui accomplissent vraiment.",

@@ -11,6 +11,17 @@
     "title": "Die Welt beachtet, wer auffällt. UPLY belohnt, wer erschafft.",
     "subtitle": "Schließe dich der ersten meritokratischen Plattform an, die echte Ergebnisse in Chancen verwandelt."
   },
+  "ecosystem": {
+    "badge": "🚀 Beta-Zugang demnächst",
+    "card1_title": "Echte Meritokratie",
+    "card1_desc": "Schluss mit leeren Inhalten. Auf Uply ist <1>Kompetenz die einzige Währung</1>. Ein Ökosystem, in dem jede Interaktion den echten Wert belohnt, den du in die Community einbringst.",
+    "card2_title": "Wissens-Hub",
+    "card2_desc": "Von Uni-Skripten bis hin zu hochwertigen Videolektionen und Podcasts. Ein Raum, in dem Informationen <1>keine flüchtige Unterhaltung</1> sind, sondern eine grundlegende Säule für dein berufliches Wachstum.",
+    "card3_title": "Startup & Karriere",
+    "card3_desc": "Verbinde dich mit <1>Investoren und Unternehmen</1>. Auf Uply zeigst du nicht, wie du deine Zeit verbringst: Du zeigst, was du wert bist, um deine nächste Chance freizuschalten.",
+    "waitlist_title": "Bereit, deinen Wert zu zeigen?",
+    "waitlist_subtitle": "Tritt der Warteliste bei, um exklusiven Beta-Zugang zu erhalten, sobald sie bereit ist."
+  },
   "about": {
     "title": "Jenseits der Sichtbarkeit. Dein Wert, endlich messbar.",
     "subtitle": "Hör auf, Algorithmen hinterherzujagen. Beginne, echten Impact in einem Ökosystem aufzubauen, das für echte Macher entwickelt wurde.",

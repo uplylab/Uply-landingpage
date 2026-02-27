@@ -11,6 +11,17 @@
     "title": "The world watches those who appear. UPLY rewards those who achieve.",
     "subtitle": "Join the first meritocratic platform that turns real results into opportunities."
   },
+  "ecosystem": {
+    "badge": "🚀 Beta Access Coming Soon",
+    "card1_title": "Real Meritocracy",
+    "card1_desc": "No more empty content. On Uply <1>expertise is the only currency</1>. An ecosystem where every interaction rewards the real value you bring to the community.",
+    "card2_title": "Knowledge Hub",
+    "card2_desc": "From university notes to high-quality video lessons and podcasts. A space where information <1>is not fleeting entertainment</1>, but a fundamental pillar for your professional growth.",
+    "card3_title": "Startup & Career",
+    "card3_desc": "Connect with <1>investors and companies</1>. On Uply you don't show how you spend your time: you show how much you are worth to unlock your next opportunity.",
+    "waitlist_title": "Ready to show your value?",
+    "waitlist_subtitle": "Join the waitlist to receive exclusive Beta access as soon as it's ready."
+  },
   "about": {
     "title": "Beyond visibility. Your value, finally measurable.",
     "subtitle": "Stop chasing algorithms. Start building real impact in an ecosystem designed for those who truly achieve.",
