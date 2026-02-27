@@ -143,10 +143,10 @@ export default function Footer() {
                     <p className="text-xs font-bold text-[#00B8C9] uppercase tracking-wider mb-6">{t("footer.last_updated")}</p>
                     
                     <p className="text-sm leading-relaxed">
-                      <Trans i18nKey="footer.cookie.p1">
-                        Questo sito utilizza solo cookie tecnici strettamente necessari  al suo funzionamento.
-                      </Trans>
-                    </p>
+  <Trans i18nKey="footer.cookie.p1">
+    Questo sito utilizza <strong>solo cookie tecnici strettamente necessari</strong> al suo funzionamento.
+  </Trans>
+</p>
                     <p className="text-sm leading-relaxed">
                       {t("footer.cookie.p2")}
                     </p>
